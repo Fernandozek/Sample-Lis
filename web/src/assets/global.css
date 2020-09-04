@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+:root {
+    font-family: 'Roboto', sans-serif;
+    /*Cor do container padrão azul*/
+    --color-container: #2B4CB8;
+    /*Cor dos textos nos containers*/
+    --color-cotainer-texto: #FFFFFF;
+    /*Cor dos textos secundárias no container*/
+    --color-container-textosec: #FFFFFF;
+    /*Cor do navibar padrão azul*/
+    --color-navibar: #0C3197;
+    /*Cor tag h3*/
+    --color-h3: #0C3197;
+    /*Cor das páginas brancas*/
+    --color-pagina: #F0F0F7;
+    /*Cor das palavras nas paginas brancas*/
+    --color-pagina-texto: #9C98A6;
+    /*Cor dos botões padrões nas paginas brancas*/
+    --color-pagina-botao: #2B4CB8;
+    /*Cor dos textos nas paginas em azul ex.:nas páginas portifólio"Semana passa"*/
+    --color-pagina-textoazul: #2B4CB8;
+    /*Cor dos textos nas paginas em azul escuro ex.:nas páginas de publicações"2020(Anos)"*/
+    --color-pagina-textoazulescuro: #12005E; 
+    /*Cor dos textos nas páginas em azul claro ex.:página de contatos"Entre e fale conosco!"*/
+    --color-pagina-textoazulclaro: #2F80ED;
+    /*Cor dos textos nos botões*/
+    --color-botao-texto: #FFFFFF;
+    /*Cor das descrições*/
+    --color-descriptoins: #828282;
+    /*Cor dos textos nos cards*/
+    --color-cards-titulo: #12005E;
+    /*Cor dos textos nos cards*/
+    --color-cards-textos: #9C98A6;
+    /*Cor dos textos nas datas nos cards*/
+    --color-cards-data: #6A6180;
+    /*Cor do rodapé: OPACITY 0.61*/
+    --color-rodape: #000000;
+    /*Cor dos textos nos rodapés*/
+    --color-rodape-texto: #FFFFFF;
+    /*A cor da barra de carregar mais histórico ex.: página de projetos*/
+    --color-barra-carregarmais: #2B44FF;
+    /*Botões de páginas ex.: página de portifólio*/
+    --color-botaodepagina: #FFFFFF;
+    /*Cor dos textos dos botões selecionados*/
+    --color-botaodepagina-texto: #999999;
+    /*Botão selecionado*/
+    --color-botaodepagina-selecionado: #2B44FF;
+    /*Cor dos textos dos botões selecionados*/
+    --color-botaodepagina-texto-selecionado: #FFFFFF;
+    /*Cor das bordas dos botões de páginas:*/
+    --color-botaodepagina-borda: #CCCCCC;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body, #root {
+    height: 100vh;
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+#root {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /*align-items: center;*/
+    justify-content: space-between;
+}
+
